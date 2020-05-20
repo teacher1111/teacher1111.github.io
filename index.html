@@ -1,0 +1,87 @@
+<html>
+  <head>
+    <title>Сайт о человеке пауке</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="js-script.js"></script>
+  </head>
+  <body>
+    <div class="main-headers">
+      <h1>Сайт человека паука</h1>
+    </div>
+    
+    <hr/>
+    
+    <div>
+      <nav>
+        <table class="menu-container">
+          <tr>
+            <td>
+              <a href="index.html"><button>Главная</button></a>
+            </td>
+            <td>
+              <a href="about-me.html"><button>Кто создал сайт</button></a>
+            </td>
+            <td>
+              <a href="abilities.html"><button>Что такое "Способности"</button></a>
+            </td>
+          </tr>
+        </table>
+      </nav>
+    </div>
+    
+    <div class="spider-logo-container">
+      <img class="spider-logo" src="spider-logo.png" />
+    </div>
+    <h3 onClick="showHeaderContent()" class="able-to-use">Информация о Человеке Пауке</h3>
+    <div class="info-container" style="display: none;" id="1">
+      <button onClick="showHeaderContent()">Закрыть окно</button>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Характеристика</th>
+            <th>Значение</th>
+          </tr>
+        </thead>
+        
+        <tbody>
+          <tr>
+            <td>Настоящие имя</td>
+            <td>Питер Бенджамин Паркер</td>
+          </tr>
+          <tr>
+            <td>Рост</td>
+            <td>184 см</td>
+          </tr>
+          <tr>
+            <td>Вес</td>
+            <td>71 кг</td>
+          </tr>
+          <tr>
+            <td>Место рождения</td>
+            <td>США, г. Бруклин</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <h3>Способности</h3>
+    <div class="info-container">
+      <ul type="square">
+        <li>Повышенная регенерация</li>
+        <li><span class="super-power" onClick="superPowerClick(this)">Сверхбыстрые рефлексы</span></li>
+        <li>Суперловкость</li>
+        <li>Гениальный интеллект</li>
+        <li>Веб-шутеры</li>
+        <li>Паучье чутье</li>
+        <li><span class="super-power" onClick="superPowerClick(this)">Суперсила</span></li>
+      </ul>
+    </div>
+    <h3>История Персонажа</h3>
+    <div class="info-container">
+      <p>Родился в Штате Нью-Джерси в <span class="year">2003</span>. Пошел в школу в <span class="year">2010</span>.</p>
+      <p>Выучился в школе в <span class="year">2021</span> г.</p>
+    </div>
+    <footer>
+      Сайт создан Антоном в 2020 г.
+    </footer>
+  </body>
+</html>
